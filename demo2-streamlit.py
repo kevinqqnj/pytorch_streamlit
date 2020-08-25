@@ -10,6 +10,7 @@ from io import BytesIO
 import streamlit as st
 import pandas as pd
 
+st.set_option('deprecation.showfileUploaderEncoding', False)
 st.title("Cycle GAN - horse to zebra")
 
 st.markdown(
